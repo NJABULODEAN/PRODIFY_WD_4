@@ -1,0 +1,235 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    .logo {
+      padding-left: 5px;
+      padding-top: 10px;
+      position: fixed;
+      font-style: italic;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      position: relative;
+      top: 10px;
+      padding-left: 50px;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    nav {
+      color: black;
+      padding: 12px 24px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }  
+    a:hover {
+      color: blue;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .content {
+      padding-left: 50px;
+      position: relative;
+      top: 200px;
+    }
+    main {
+      height: 700;
+      width: 700;
+      background-image:linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(IMG-20230808-WA0031.jpg);
+      background-size: cover;
+      padding: 10px 8%;
+      background-position: center;
+      width: 100%;
+      min-height: 80vh;
+    }
+    main h1 {
+      font-size: 32px;
+      position: relative;
+      bottom: 90px;
+      padding-left: 300px;
+    }
+    main p {
+      font-weight: 600;
+      position: absolute;
+      bottom: 0px;
+      left: 350px;
+      font-size: 24px;
+    }
+    main a {
+      position: relative;
+      top: 300px;
+      left: 50px;
+      color: blue;
+      position: absolute;
+      bottom: 100px;
+      left: 550px;
+    }
+    .icons {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: absolute;
+      top: 360px;
+      left: 550px;
+      cursor: pointer;
+    }
+    .icons img {
+      border-radius: 50%;
+    }
+    span {
+      font-weight: bold;
+      color: red;
+    }
+    /* ABOUT SECTION */
+    section h1 {
+      padding-left: 20px;
+      padding-top: 20px;
+     }
+    section img {
+      padding-top: 60px;
+      padding-left: 40px;
+    }
+    section .para1:hover {
+      border: 2px solid blue;
+      background-color: aqua;
+    }
+    section .para2:hover {
+      border: 2px solid red;
+      background-color: rosybrown;
+    }
+    section span {
+      font-weight: bold;
+    }
+    section .para1 {
+      border: 2px solid red;
+      position: absolute;
+      left: 700px;
+      top: 650px;
+    }
+    section .para2 {
+      border: 2px solid blue;
+      position: absolute;
+      left: 700px;
+      top: 800px;
+    }
+    section .para3 {
+      border: 2px solid green;
+      position: absolute;
+      left: 700px;
+      top: 950px;
+    }
+    section .para3:hover {
+      border: 2px solid gold;
+      background-color: greenyellow;
+    }
+    section h2 {
+      padding-left: 50px;
+      padding-top: 30px;
+      color: gold;
+    }
+    .skills-section {
+      position: relative;
+      top: 100px;
+      min-height: 60vh;
+      background-color: blue;
+    }
+    .skills-section h1 {
+      text-align: center;
+    }
+    .skills button {
+      width: 150px;
+      height: 50px;
+      background-color: red;
+      border: 1px solid red;
+      border-radius: 8px;
+      font-weight: bold;
+      padding-left: 20px;
+    }
+    .basic-skills {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding-top: 30px;
+    }
+    .version-control {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding-top: 30px;
+    }
+    .frameworks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+    }
+    .intermediate {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding-top: 30px;
+    }
+    .projects-section {
+      position: relative;
+      top: 150px;
+    }
+    .projects-section h1 {
+      text-align: center;
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .projects p  {
+      padding-left: 40px;
+    }
+    .projects h3 {
+      padding-left: 40px;
+    }
+    .projects a {
+      color: blue;
+      text-decoration: underline;
+    }
+    footer {
+      position: relative;
+      top: 250px;
+      width: 100%;
+      min-height: 40vh;
+      background-color: black;
+    }
+    footer h1 {
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+    }
+    footer h2 {
+      color: white;
+    }
+    .contacts {
+      position: absolute;
+      bottom: 70px;
+      left: 500px;
+    }
